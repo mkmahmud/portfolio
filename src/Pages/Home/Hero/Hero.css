@@ -1,0 +1,30 @@
+.image{   
+    border-radius: 30% 70% 70% 30% / 30% 64% 36% 70%;
+    border: 5px solid white;
+}
+
+.right p{
+    font-family: 'Kenia', cursive;
+    letter-spacing: 4px;
+}
+
+.heroText{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s 2s linear infinite;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }

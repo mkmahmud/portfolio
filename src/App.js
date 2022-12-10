@@ -5,7 +5,7 @@ import 'flowbite';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App max-w-screen-2xl mx-auto">
       <Router></Router>
     </div>
   );
