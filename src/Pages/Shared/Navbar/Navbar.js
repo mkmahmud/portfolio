@@ -28,7 +28,7 @@ const NavBar = () => {
                             <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#000000] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Contact me</Link>
                         </li>
                         <li>
-                        <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><Link>Download CV</Link></button>
+                        <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><a href="https://drive.google.com/file/d/1kGg1bQ9LMYEiVXdOE_0YfYtdlnSHutkK/view?usp=share_link">Download CV</a></button>
                         </li>
                     </ul>
                 </div>
