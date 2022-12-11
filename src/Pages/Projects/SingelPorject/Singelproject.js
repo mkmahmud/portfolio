@@ -1,24 +1,26 @@
 import React from 'react';
+import DetailsButton from '../../../Componentes/Button/DetailsButton';
 
 const Singelproject = ({data}) => {
-    const {image, title} = data;
+    const {image, title, Tech, livesite} = data;
     return (
 
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 mx-auto">
+        <div class="w-full max-w-lg bg-[#030f3e] rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 my-10 mx-auto text-white">
             <a href="#">
-                <img class="p-8 rounded-t-lg" src={image} alt="product image" />
+                <img class=" rounded-t-lg h-80" src={image}  alt="product image" />
             </a>
-            <div class="px-5 pb-5">
+            <div class="px-5 py-5 text-left">
                 <a href="#">
-                    <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+                    <h5 class="text-2xl font-bold tracking-tight text-white dark:text-white">{title}</h5>
                 </a>
                 <div class="flex items-center mt-2.5 mb-5">
                     
+                    <span class="text-xl font-bold text-[#EEEEEE] dark:text-white"><span className='text-[#FF5F00]'>Stack:</span> {Tech}</span>
                      </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-3xl font-bold text-gray-900 dark:text-white"></span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Live Site</a>
-                </div>
+                    <DetailsButton content='Details' path='mk.com' background='B20600'></DetailsButton>
+                    <DetailsButton content='Live Site' path={livesite} background='FF5F00'></DetailsButton>
+                 </div>
             </div>
         </div>
 

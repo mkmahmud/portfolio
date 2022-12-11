@@ -7,7 +7,7 @@ import ResumeButton from '../../../Componentes/Button/ResumeButton';
 const NavBar = () => {
     return (
 
-        <nav class="bg-[#000000] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <nav class="bg-[#00092C] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://mkmahmud.com/" class="flex items-center">
                     <img src={logo} class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
@@ -18,15 +18,15 @@ const NavBar = () => {
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </button>
                 <div class="hidden w-full md:block md:w-auto " id="navbar-default">
-                    <ul class="flex flex-col items-center p-4 mt-4 border border-[#000000] rounded-lg bg-[#000000] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#000000] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul class="flex flex-col items-center p-4 mt-4 border border-[#000000] rounded-lg bg-[#00092C] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#00092C] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#000000] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Skills</Link>
+                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Skills</Link>
                         </li>
                         <li>
-                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#000000] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Projects</Link>
+                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Projects</Link>
                         </li>
                         <li>
-                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#000000] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Contact me</Link>
+                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Contact me</Link>
                         </li>
                         <li>
                             <ResumeButton content='Resume'></ResumeButton>
