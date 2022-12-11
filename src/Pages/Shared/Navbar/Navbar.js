@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from 'flowbite-react';
 import logo from '../../../Assetes/logo.png'
 import { Link } from 'react-router-dom';
+import ResumeButton from '../../../Componentes/Button/ResumeButton';
 
 const NavBar = () => {
     return (
@@ -10,7 +11,7 @@ const NavBar = () => {
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="https://mkmahmud.com/" class="flex items-center">
                     <img src={logo} class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
-                    <span style={{marginLeft:'-20px'}} class="self-center text-white text-xl font-semibold whitespace-nowrap dark:text-white">Mkmahmud</span>
+                    <span style={{ marginLeft: '-20px' }} class="self-center text-white text-xl font-semibold whitespace-nowrap dark:text-white">Mkmahmud</span>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
@@ -28,7 +29,7 @@ const NavBar = () => {
                             <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#000000] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Contact me</Link>
                         </li>
                         <li>
-                        <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><a href="https://drive.google.com/file/d/1kGg1bQ9LMYEiVXdOE_0YfYtdlnSHutkK/view?usp=share_link">Download CV</a></button>
+                            <ResumeButton content='Resume'></ResumeButton>
                         </li>
                     </ul>
                 </div>

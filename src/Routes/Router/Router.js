@@ -7,7 +7,7 @@ import Main from '../../Layout/Main';
 import Home from '../../Pages/Home/Home';
 
 const Router = () => {
-
+ 
     const router = createBrowserRouter([
         {
           path: "/",

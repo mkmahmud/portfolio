@@ -4,7 +4,7 @@
 }
 
 .right p{
-    font-family: 'Kenia', cursive;
+  font-family: 'Concert One', cursive;
     letter-spacing: 4px;
 }
 
@@ -14,7 +14,7 @@
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 10s 2s linear infinite;
+    animation: animate 2s 2s linear infinite;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import bg from '../../../Assetes/bg.png'
 // import image from '../../../Assetes/image.jpg'
 import image from '../../../Assetes/image2.png'
+import ResumeButton from '../../../Componentes/Button/ResumeButton';
 
 import './Hero.css'
 
@@ -13,13 +14,7 @@ const Hero = () => {
 
     return (
         <div className='md:h-[80vh] text-white px-20 py-10  md:flex items-center justify-between'
-            style={{
-                backgroundImage: `url(${bg})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
 
-            }}
         >
 
             <div className="left">
@@ -27,8 +22,10 @@ const Hero = () => {
             </div>
 
             <div className="right text-left">
-                <p className='text-[60px]  text-left text-black'>Hi there <br /> I am Full stack <span className='heroText'>developer</span></p>
-                <button type="button" class=" my-5 text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><a href="https://drive.google.com/file/d/1kGg1bQ9LMYEiVXdOE_0YfYtdlnSHutkK/view?usp=share_link">Download CV</a></button>
+                <p className='text-[60px]  text-left text-white'>Hi there <br /> I am Mahmudul Hasan MK<br /> Full stack <span className='heroText'>developer</span></p>
+                <div className='my-10'>
+                    <ResumeButton content='Download CV'></ResumeButton>
+                </div>
             </div>
 
 

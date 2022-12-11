@@ -5,8 +5,8 @@ import Hero from './Hero/Hero';
 const Home = () => {
     return (
         <div>
-               <Hero></Hero>
-                <Projects></Projects>
+            <Hero></Hero>
+            <Projects></Projects>
         </div>
     );
 };
