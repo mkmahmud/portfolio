@@ -29,7 +29,7 @@ const NavBar = () => {
                             <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Contact me</Link>
                         </li>
                         <li>
-                            <ResumeButton content='Resume'></ResumeButton>
+                            <ResumeButton content='Hire Me'></ResumeButton>
                         </li>
                     </ul>
                 </div>
