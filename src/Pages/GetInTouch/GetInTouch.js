@@ -14,7 +14,7 @@ const GetInTouch = () => {
     return (
         <div className='py-20'>
 
-            <h2 className='text-[50px] font-bold '>Get In Touch</h2>
+            <h2 className='text-[50px] font-bold sectionTitle'>Get In Touch</h2>
             <div class="container my-24 px-6 mx-auto">
 
                 <section class="mb-32 text-center text-white">

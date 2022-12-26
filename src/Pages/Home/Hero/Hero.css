@@ -1,30 +1,61 @@
-.image{   
+.image {
+  border-radius: 30% 70% 70% 30% / 30% 64% 36% 70%;
+  border: 5px solid #FF5F00;
+  animation: imageAnimation 5s infinite alternate;
+
+}
+
+
+@keyframes imageAnimation {
+  0% {
     border-radius: 30% 70% 70% 30% / 30% 64% 36% 70%;
-    border: 5px solid #FF5F00;
+  }
+
+  20% {
+    border-radius: 45% 55% 71% 29% / 45% 45% 55% 55%;
+  }
+
+  40% {
+    border-radius: 54% 46% 58% 42% / 30% 55% 45% 70%;
+  }
+
+  60% {
+    border-radius: 74% 26% 68% 32% / 30% 69% 31% 70%;
+  }
+
+  80% {
+    border-radius: 100% 0% 97% 3% / 36% 69% 31% 64%;
+  }
+
+  100% {
+    border-radius: 73% 27% 72% 28% / 0% 100% 0% 100%;
+  }
 }
 
-.right p{
-  font-family: 'Concert One', cursive;
-    letter-spacing: 4px;
+.right p {
+  font-family: 'Righteous', cursive;
+  line-height: 1;
+  letter-spacing: 4px;
 }
 
-.heroText{
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 2s 1s linear infinite;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+.heroText {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 2s 1s linear infinite;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
   }
-  
-  @keyframes animate {
-    0% {
-      background-position: -500%;
-    }
-    100% {
-      background-position: 500%;
-    }
+
+  100% {
+    background-position: 500%;
   }
+}
