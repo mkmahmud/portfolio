@@ -25,7 +25,7 @@ const Hero = () => {
 
 
     return (
-        <div className='overflow-x-hidden'>
+        <div className='overflow-x-hidden w-full'>
 
 
             <MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1}>

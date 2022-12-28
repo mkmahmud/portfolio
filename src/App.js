@@ -26,7 +26,7 @@ function App() {
 
     window.addEventListener('mousemove', mouseMove)
 
-    return () => {
+    return () => { 
       window.removeEventListener('mousemove', mouseMove)
     }
 
@@ -46,12 +46,6 @@ function App() {
     <div className="App max-w-screen-2xl mx-auto bg-[#00092C] text-white">
       <Router></Router>
       <ToastContainer />
-   
-      <motion.div
-          className='cursor'
-          variants={varients}    
-          animate='default'
-      />
     </div>
   );
 }

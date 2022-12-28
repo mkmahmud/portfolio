@@ -20,7 +20,7 @@ const NavBar = () => {
                 <div class="hidden w-full md:block md:w-auto " id="navbar-default">
                     <ul class="flex flex-col items-center p-4 mt-4 border border-[#000000] rounded-lg bg-[#00092C] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#00092C] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Skills</Link>
+                            <Link to='/#skills' class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Skills</Link>
                         </li>
                         <li>
                             <Link href="#" class="block py-2 pl-3 pr-4 text-white bg-[#00092C] rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Projects</Link>
