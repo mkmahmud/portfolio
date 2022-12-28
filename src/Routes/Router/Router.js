@@ -5,6 +5,7 @@ import {
   } from "react-router-dom";
 import Main from '../../Layout/Main';
 import Home from '../../Pages/Home/Home';
+import Details from '../../Pages/Projects/Details/Details';
 
 const Router = () => {
  
@@ -16,6 +17,10 @@ const Router = () => {
             {
                 path:'/',
                 element:<Home></Home>
+            },
+            {
+              path:'details',
+              element: <Details></Details>
             }
           ]
         },

@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react';
 import DetailsButton from '../../Componentes/Button/DetailsButton';
 import ViewAllButton from '../../Componentes/Button/ViewAllButton';
 import Singelproject from './SingelPorject/Singelproject';
+import SingelProjectFullWidth from './SingelProjectFullWidth/SingelProjectFullWidth';
 
 const Projects = () => {
 
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
-        fetch('projects.json')
+        fetch('myprojects.json')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
@@ -17,15 +18,19 @@ const Projects = () => {
         <div className='projects'>
             <div>
                 <h2 className='text-[50px] font-bold py-20 sectionTitle'>Projects</h2>
+                {
+                    projects.map(project => <SingelProjectFullWidth data={project} key={project._id}></SingelProjectFullWidth>)
+                }
+                
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-2'>
+            {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-2'>
                 {
                     projects.map(project => <Singelproject data={project} key={project.index}></Singelproject>)
                 }
-            </div>
-            <div className="viewAll my-10">
+            </div> */}
+            {/* <div className="viewAll my-10">
                 <ViewAllButton content='View All'></ViewAllButton>
-            </div>
+            </div> */}
         </div>
     );
 };
