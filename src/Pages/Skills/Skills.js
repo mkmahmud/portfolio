@@ -4,13 +4,13 @@ import Skill from './Skill/Skill';
 
 const Skills = () => {
     return (
-        <div id='skills'>
+        <div id='skills' className='bg-black'>
             <div>
                 <h2 className='text-[50px] font-bold py-20 sectionTitle'>Skills</h2>
                 
                 <h2>I have a vast experience in the following web technologies:</h2>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-6 place-items-center px-5'>
+            <div className='grid grid-cols-1 md:grid-cols-6 place-items-center px-5 pb-20'>
                 <Skill text={'HTML'} bg={'dd4b25'} parcent={80} ></Skill>
                 <Skill text={'CSS'} bg={'254bdd'} parcent={75} ></Skill>
                 <Skill text={'JavaScript'} bg={'efd81c'} parcent={70} ></Skill>

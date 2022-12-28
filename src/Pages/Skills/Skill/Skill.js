@@ -25,7 +25,7 @@ const Skill = ({ text, bg, parcent }) => {
     `;
 
     const Content = styled.h2`
-    background: #00092c;
+    background: #000000;
     height: 150px;
     width: 150px;
     border-radius: 50%;
