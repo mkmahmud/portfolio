@@ -12,6 +12,7 @@ import myresume from '../../../Assetes/mahmud-resume.pdf'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import BgIcon from './Bgicon/BgIcon';
 
 const Hero = () => {
 
@@ -25,8 +26,13 @@ const Hero = () => {
 
 
     return (
-        <div className='overflow-x-hidden w-full'>
-
+        <div className='overflow-x-hidden w-full'> 
+            <BgIcon image="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" animate='animate-spin' top={100} left={1000} > </BgIcon>
+            <BgIcon image="https://miro.medium.com/max/800/1*bc9pmTiyKR0WNPka2w3e0Q.png" animate='animate-pulse' top={250} left={100}> </BgIcon>
+            <BgIcon image="https://www.computerhope.com/jargon/j/javascript.png" animate='animate-ping' top={100} left={500}> </BgIcon>
+            <BgIcon image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" animate='animate-bounce' top={100} left={800} > </BgIcon>
+            <BgIcon image="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"  top={500} left={0} > </BgIcon>
+            <BgIcon image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" animate='animate-pulse' top={350} left={1200} > </BgIcon>
 
             <MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1}>
 

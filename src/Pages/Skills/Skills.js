@@ -17,11 +17,11 @@ const Skills = () => {
                 {/* <Skill text={'PHP'} bg={'7377ad'} parcent={70} ></Skill> */}
                 <Skill text={'React'} bg={'5ed3f3'} parcent={80} ></Skill>
                 <Skill text={'Node'} bg={'6da45f'} parcent={50} ></Skill>
-                <Skill text={'Express'} bg={'FFFFFF'} parcent={60} ></Skill>
+                {/* <Skill text={'Express'} bg={'FFFFFF'} parcent={60} ></Skill> */}
+                <Skill text={'MongoDB'} bg={'00fe69'} parcent={90} ></Skill>
                 {/* <Skill text={'Laravel'} bg={'f72c1f'} parcent={70} ></Skill>
                 <Skill text={'Bootstrap'} bg={'8011f5'} parcent={90} ></Skill>
                 <Skill text={'Tailwind'} bg={'07b6d5'} parcent={85} ></Skill>
-                <Skill text={'MongoDB'} bg={'00fe69'} parcent={90} ></Skill>
                 <Skill text={'Firebase'} bg={'f2930d'} parcent={50} ></Skill> */}
             </div>
             {/* <div>

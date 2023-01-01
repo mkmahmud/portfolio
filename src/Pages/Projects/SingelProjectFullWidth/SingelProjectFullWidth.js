@@ -15,7 +15,7 @@ const SingelProjectFullWidth = ({ data }) => {
     return (
         <div className='m-20' >
 
-            <div class="projects-card flex flex-col items-center ease-in-out border-b-0  border rounded-lg shadow-md md:flex-row rounded-xl  text-left">
+            <div style={{borderRadius:'4% 96% 4% 96% / 96% 4% 96% 4% '}} class="projects-card flex flex-col items-center ease-in-out border-[#FF5F00] border-b-0 border-t-0 border shadow-md md:flex-row  text-left">
                 <div class="flex flex-col justify-between p-4 leading-normal md:w-3/5">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white ">{title}</h5>
                     <p class="mb-3 font-normal text-white">{shortDes}</p>

@@ -33,7 +33,7 @@ const Projects = () => {
                 }
             </div> */}
             <div className="viewAll my-10">
-                <ViewAllButton content='View All'></ViewAllButton>
+                <ViewAllButton path='/projects' content='View All'></ViewAllButton>
             </div>
 
 
