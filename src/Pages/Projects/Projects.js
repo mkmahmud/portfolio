@@ -6,13 +6,17 @@ import SingelProjectFullWidth from './SingelProjectFullWidth/SingelProjectFullWi
 
 const Projects = () => {
 
-    const [projects, setProjects] = useState([])
+    const [projects, setProjects] = useState([]);
+    
+  
 
     useEffect(() => {
-        fetch('myprojects.json')
+        fetch('https://port-server-mkmahmud.vercel.app/projects')
             .then(res => res.json())
             .then(data => setProjects(data))
+        
     }, [])
+    
 
     return (
         <div className='projects'>
@@ -28,9 +32,13 @@ const Projects = () => {
                     projects.map(project => <Singelproject data={project} key={project.index}></Singelproject>)
                 }
             </div> */}
-            {/* <div className="viewAll my-10">
+            <div className="viewAll my-10">
                 <ViewAllButton content='View All'></ViewAllButton>
-            </div> */}
+            </div>
+
+
+
+
         </div>
     );
 };

@@ -2,10 +2,11 @@
     {
       "_id": "63accac689be32bc64559f30",
       "index": 0,
-      "title": "Find Your Healthy Place",
-      "shortDes": "lorem Short",
+      "title": "Book House",
+      "shortDes": "Book house is book selling website",
       "longDes": "The Healthy Place, previously known as Apple Wellness is the hub of top-quality health and wellness products in the United States. Established in 2010 with the mission to offer health and wellness to customers by inspiring and educating them to make healthy decisions in their lives. What started as a small brick-and-mortar store for vitamins and supplements, now also has a powerful online presence.",
       "stack": "LEAM",
+      "livesite":"https://bookhouse-f2aca.web.app/",
       "technology": {
         "frontEnd": [
           "React",
@@ -22,8 +23,7 @@
         "Nothing"
       ],
       "images": [
-        "https://i.ibb.co/720PrYt/Screenshot-5.png",
-        "https://i.ibb.co/CQf5z05/Screenshot-4.png",
+        "https://i.ibb.co/dpnW4G3/Screenshot-7.png",
         "https://i.ibb.co/zNPDjk0/Screenshot-3.png",
         "https://i.ibb.co/vcZmP4t/Screenshot-1.png",
         "https://i.ibb.co/C2jJWCx/Screenshot-2.png"
